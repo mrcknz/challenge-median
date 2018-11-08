@@ -2,7 +2,6 @@
 
 function findMedian (arr1, arr2) {
 
-<<<<<<< HEAD
   if (!arr1 || !arr1.length || !arr2 || !arr2.length || arr1.length !== arr2.length) return false;
 
   if (arr1.length === 2 && arr2.length === 2) {
@@ -47,8 +46,6 @@ function median (values) {
 
   return typeof median === 'number' ? median : false;
 
-=======
->>>>>>> 0595fcf0aa083989653cc043e1f33e4fe3cce78b
 }
 
 exports.findMedian = findMedian;
